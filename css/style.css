@@ -1,0 +1,34 @@
+body{
+    background-color: #FFCCCC;
+    padding: 120px;
+}
+h1{
+    float: left;
+    width: 150px;
+}
+section img{
+    float: right;
+    height: 350px;
+}
+section{
+    position: relative;
+}
+section a{
+    position: absolute;
+    background-color: black;
+    height: 40px;
+    width: 110px;
+    top: 100px;
+    left: 0;
+    padding: 10px 0 0;
+}
+section a p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+section:after{
+    content: "";
+    clear: both;
+    display: block;
+}
