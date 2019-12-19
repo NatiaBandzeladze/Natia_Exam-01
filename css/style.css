@@ -1,19 +1,20 @@
 body{
     background-color: #FFCCCC;
-    padding: 120px;
+    padding: 200px 380px;
 }
 h1{
     float: left;
-    width: 150px;
+    font-size: 30px;
+    width: 280px;
 }
-section img{
+.section1 img{
     float: right;
     height: 350px;
 }
-section{
+.section1{
     position: relative;
 }
-section a{
+.section1 a{
     position: absolute;
     background-color: black;
     height: 40px;
@@ -22,13 +23,49 @@ section a{
     left: 0;
     padding: 10px 0 0;
 }
-section a p{
+.section1 a p{
     color: #fff;
     font-size: 15px;
     text-align: center;
 }
-section:after{
+.section1:after{
     content: "";
     clear: both;
     display: block;
 }
+.box{
+    position: relative;
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 150px;
+    float: left;
+    margin: 50px 95px 0 0;
+}
+.box:last-child{
+    margin-right: 0;
+}
+.section2:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.box img{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    height: 50px;
+}
+.box h5{
+    position: absolute;
+    top: 90px;
+    left: 57px;
+}
+.box p{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+.box:nth-child(3):hover{
+    background-color: brown;
+}
+
